@@ -1,6 +1,6 @@
 # nodeChallenge
 ```bash
-git clone url
+git clone (url)
 cd (yours directory)/nodeChallenge
 node app.js
 ```
