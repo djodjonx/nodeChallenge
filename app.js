@@ -9,9 +9,9 @@ var year = "";
 var ageSchema = {
     properties: {
         age: {
-            type: 'number',
+
             message: colors.green('How old are You?'),
-            validator: /^[1-9][0-9]?$/,
+            validator: /^([1-9][0-9]?)$/,
             warning: 'Age must be only Number,between 1 and 99',
             required: true
         },
@@ -43,7 +43,7 @@ prompt.get(ageSchema, function(err, result) {
       }
 
 
-    console.log(colors.bold("your\'s birth year is") ,colors.bgGreen(year));
+    console.log(colors.bold("your\'s birth year is") ,colors.red(year));
   }
 });
 
