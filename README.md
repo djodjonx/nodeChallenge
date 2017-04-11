@@ -1,4 +1,6 @@
 # nodeChallenge
-make a clone
-launch app in directory with
+'''bash
+git clone url
+cd (yours directory)/nodeChallenge
 node app.js
+'''
